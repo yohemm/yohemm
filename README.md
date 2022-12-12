@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 [<img width="25px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />][test]
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yohemm&count_private=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&count_private=true)
