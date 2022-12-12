@@ -17,9 +17,10 @@ Here are some ideas to get you started:
 -->
 [<img width="25px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />](test)
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&count_private=true&theme=vision-friendly-dark)
+###### :zap: Recent Activity
  <!--RECENT_ACTIVITY:start-->
  
  
  
  <!--RECENT_ACTIVITY:last_update-->
-![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=yohemm&custom_title=My%20Activity%20on%20GitHub&hide_border=true&theme=xcode)xcode
+![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=yohemm&custom_title=My%20Activity%20on%20GitHub&hide_border=true&theme=xcode)
