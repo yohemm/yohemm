@@ -22,4 +22,4 @@ Here are some ideas to get you started:
  
  
  <!--RECENT_ACTIVITY:last_update-->
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=yohemm&custom_title=My%Activity%20on%GitHub&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=yohemm&custom_title=My%20Activity%20on%20GitHub&hide_border=true&theme=xcode)xcode
