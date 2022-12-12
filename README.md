@@ -25,5 +25,6 @@ Here are some ideas to get you started:
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#1](https://github.com/yohemm/yohemm/pull/1) in [yohemm/yohemm](https://github.com/yohemm/yohemm)
 <!--END_SECTION:activity-->
 ---
