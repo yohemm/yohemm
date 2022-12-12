@@ -16,4 +16,4 @@ jobs:
       # If you want to live on edge, use 'master' branch.
       - uses: MadeByThePinsHub/github-activity-readme@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.readmeToken }}
