@@ -25,5 +25,5 @@ Here are some ideas to get you started:
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-
+Update this repo's README with recent activity
 ---
