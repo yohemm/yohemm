@@ -38,6 +38,6 @@ I not use GitHub every days or week, but I have learn gitHub with git bash or cm
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#1](https://github.com/yohemm/yohemm/pull/1) in [yohemm/yohemm](https://github.com/yohemm/yohemm)
+1. 🎉 Merged PR [#3](https://github.com/yohemm/yohemm/pull/3) in [yohemm/yohemm](https://github.com/yohemm/yohemm)
 <!--END_SECTION:activity-->
 ---
