@@ -19,6 +19,7 @@
 <a href="https://linkedin.com/in/yohem vaxelaire" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yohem vaxelaire" height="30" width="40" /></a>
 <a href="https://instagram.com/yohem__" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="yohem__" height="30" width="40" /></a>
 <a href="https://discord.gg/#9425" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="#9425" height="30" width="40" /></a>
+<a href="https://dev.to/yohem" target="blank"><img align="center" src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" alt="yohem" height="30" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
