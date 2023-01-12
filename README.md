@@ -3,7 +3,7 @@
 
 ## :raising_hand:About Me
 
-I am a **software** and **web developer** with 6 years of experience. I have learned **Java** and **Python languages**. I have a strong background in **back-end development** using languages such as **PHP** and **Node.js**, as well as experience in **front-end development** using HTML, CSS, and **JavaScript** with frameworks such as *React*. I am *passionate* about creating visually appealing and *user-friendly websites*. I am always eager to *learn new technologies and stay current with industry trends*.
+I am a French **software** and **web developer** with 6 years of experience. I have learned **Java** and **Python languages**. I have a strong background in **back-end development** using languages such as **PHP** and **Node.js**, as well as experience in **front-end development** using HTML, CSS, and **JavaScript** with frameworks such as *React*. I am *passionate* about creating visually appealing and *user-friendly websites*. I am always eager to *learn new technologies and stay current with industry trends*.
 
 ---
 <p style="width: 30%" align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yohemm&theme=vision-friendly-dark&layout=compact" alt="yohemm" /></p>
