@@ -12,7 +12,7 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 ## :mortar_board:Education
 
 - **baccalaureate** in Computer Science and Mathematical, *Lycée Georges Baumont Saint-Dié-Des-Vosges*, Graduated in 2022
-- **Licence professional** of Science in Computer Science, *Monptpelier University at Séte*, not actualy Graduated
+- **Licence professional** of Science in Computer Science, *Monptpelier University at Séte for the first year and at ULCO of Calais for the last 2 years*, not actualy Graduated
 
 ## :dart:Skills
 - *Programming languages*: Java, Python, **JavaScript**, **PHP**, R
