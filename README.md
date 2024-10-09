@@ -23,9 +23,14 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 
 ## :clipboard:Projects
 
-<!-- ### PortFolio
+###:portfolio: PortFolio
 - [PortFolio](https://github.com/yohemm/yohemm.github.io)
-- Description: A showcase website for show rental and availability with admin systeme. -->
+- Description: A showcase **website** to present myself
+
+### :vps_hosted:VPS
+- [apartment rental](https://github.com/yohemm/apartment-rental)
+- *Description*: A VPS with several websites, applications, mail servers and other, with an nginx reverse proxy
+
 ### :house_with_garden:Apartment rental
 - [apartment rental](https://github.com/yohemm/apartment-rental)
 - *Description*: A showcase **website** for show rental and availability with admin systeme.
