@@ -62,4 +62,4 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=yohemm&custom_title=My%20Activity%20on%20GitHub&hide_border=true&theme=xcode)
 
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&theme=transparent"/>
+<p style="width: 30%" align="center"><img align="center" src="https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&theme=transparent"/></p>
