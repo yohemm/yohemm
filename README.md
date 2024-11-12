@@ -61,3 +61,6 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 I not use **GitHub** every days or week, but I have learn gitHub with **git bash**. I think I can understand and make a medium commande **without great difficulty**. 
 
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=yohemm&custom_title=My%20Activity%20on%20GitHub&hide_border=true&theme=xcode)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yohemm&langs_count=8)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&theme=transparent)
