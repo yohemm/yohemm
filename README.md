@@ -6,8 +6,10 @@
 I am a French **software** and **web developer** with 6 years of experience. I have learned **Java** and **Python languages**. I have a strong background in **back-end development** using languages such as **PHP** and **Node.js**, as well as experience in **front-end development** using HTML, CSS, and **JavaScript** with frameworks such as *React*. I am *passionate* about creating visually appealing and *user-friendly websites*. I am always eager to *learn new technologies and stay current with industry trends*.
 
 ---
-<p style="width: 30%" align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yohemm&theme=dark&hide_border=false" alt="yohemm" /></p>
 
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=yohemm&theme=dark&hide_border=false"/>
+</p>
 
 ## :mortar_board:Education
 
@@ -117,9 +119,14 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 
 ---
 I not use **GitHub** every days or week, but I have learn gitHub with **git bash**. I think I can understand and make a medium commande **without great difficulty**. 
-<p style="width: 30%" align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yohemm&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
-<!-- &custom_title=My%20Activity%20on%20GitHub&hide_border=true&theme=xcode -->
 
+
+<p style="width: 30%" align="center">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&theme=transparent"/>
 </p>
+
+<p style="width: 30%" align="center">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yohemm&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
+</p>
+
+<!-- &custom_title=My%20Activity%20on%20GitHub&hide_border=true&theme=xcode -->
