@@ -16,6 +16,8 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 - **baccalaureate** in Computer Science and Mathematical, *Lycée Georges Baumont Saint-Dié-Des-Vosges*, Graduated in 2022
 - **Licence professional** of Science in Computer Science, *Monptpelier University at Séte for the first year and at ULCO of Calais for the last 2 years*, not actualy Graduated
 
+---
+
 ## :dart:Skills
 - *Programming languages*: Java, Python, **JavaScript**, **PHP**, R
 - *Frameworks*: React, Node, pygame, tkinter, spigot, express
@@ -49,7 +51,6 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 <a href="https://www.mongodb.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" /></a>  
 <a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
 <a href="https://expressjs.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" /></a>  
-<a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /></a>  
 <a href="https://www.r-project.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/r.svg" alt="R" height="50" /></a>  
 <a href="https://www.cprogramming.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="50" /></a>  
 <a href="https://www.apachefriends.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/xampp.png" alt="XAMPP" height="50" /></a>  
@@ -81,6 +82,8 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 -->
 </div>
 
+---
+
 ## :clipboard:Projects
 
 ### :hand:PortFolio
@@ -106,8 +109,22 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 ### :palm_tree:PeaceFullRPG
 - [PeaceFullRPG](https://github.com/yohemm/peace-full-rpg)
 - *Description*: A **2D rpg video game** with quest, there are no aim, just discover the wolrd.
+
 ---
+
+## :signal_strength:Statisitcs & achievement:bookmark:
+
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yohemm" alt="yohemm" /></a> </p>
+
+<p style="width: 30%" align="center">
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&theme=transparent"/>
+</p>
+
+<p style="width: 30%" align="center">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yohemm&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
+</p>
+
+---
 
 ## :mailbox:Contact
 <p align="left">
@@ -119,14 +136,4 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 
 ---
 I not use **GitHub** every days or week, but I have learn gitHub with **git bash**. I think I can understand and make a medium commande **without great difficulty**. 
-
-
-<p style="width: 30%" align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&theme=transparent"/>
-</p>
-
-<p style="width: 30%" align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yohemm&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
-</p>
-
 <!-- &custom_title=My%20Activity%20on%20GitHub&hide_border=true&theme=xcode -->
