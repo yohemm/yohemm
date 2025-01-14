@@ -27,7 +27,8 @@ In addition to development, I have a solid foundation in **system administration
 Passionate about creating efficient, **secure**, and **user-friendly solutions**, I am always eager to explore new technologies, particularly in **DevOps**, to stay ahead of industry trends and continuously **improve my skill set**.
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yohemm&theme=dark&hide_border=false" alt="activities streak stats"/>
+<!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=yohemm&theme=dark&hide_border=false" alt="activities streak stats"/> -->
+<img src="https://github-readme-streak-stats-sigma-one.vercel.app?user=yohemm&theme=dracula" alt="Yohemm's GitHub Streak" />
 </p>
 
 ---
