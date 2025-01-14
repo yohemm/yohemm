@@ -123,17 +123,17 @@ Passionate about creating efficient, **secure**, and **user-friendly solutions**
 ### :memo:FlashCard Web
 - [FlashCard Web](https://github.com/yohemm/FlashCards)
 - *Description*: A higher education project for creating a memo/flashcard system with **user authentication, an API, and a backend** developed in **PHP Laravel**.
-- 
+
 ### :house_with_garden:Apartment rental
 - [apartment rental](https://github.com/yohemm/apartment-rental)
 - *Description*: A showcase website to display rental properties and their availability. Includes an **admin system, banner announcements, and picture management** (a mini **no-code panel**) built with **native PHP**.
 
 ### :hotsprings:Minecraft Plugins for server
 - [An auction house plugin](https://github.com/yohemm/HDV-minecraft-plugin)
-- Description: I have created more than **5 plugins** and edited the **main plugin** of a Minecraft server with over **2,500 visitors**.
+- Description: I have created more than **5 plugins** and edited the **main plugin** of a Minecraft server [@MinePieceMinecraft](https://github.com/MinePieceMinecraft) with over **2,500 visitors**.
 
 ### :floppy_disk:A community Dev Web Projet
-- [An auction house plugin](https://github.com/yohemm/HDV-minecraft-plugin)
+- [An auction house plugin](https://github.com/yohemm/journal-du-dev)
 - Description: I started developing a complex web application with features such as **user and rights management, badges, forums, courses**, and more in **Node.js**. Unfortunately, I couldn't finish due to time constraints with my studies.
 
 ### :satellite:GrabThePlayer
