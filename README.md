@@ -1,10 +1,30 @@
 # Yohemm
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=yohemm&label=Profile%20views&color=0e75b6&style=flat" alt="yohemm" /> </p>
+<div align="center">🚀 Aspiring DevOps Engineer | Backend Developer | System Administrator</div>
+
+---
+
 
 ## :raising_hand:About Me
 
-I am a French **software** and **web developer** with 6 years of experience. I have learned **Java** and **Python languages**. I have a strong background in **back-end development** using languages such as **PHP** and **Node.js**, as well as experience in **front-end development** using HTML, CSS, and **JavaScript** with frameworks such as *React*. I am *passionate* about creating visually appealing and *user-friendly websites*. I am always eager to *learn new technologies and stay current with industry trends*.
+<!-- I am a French **software** and **web developer** with 6 years of experience. I have learned **Java** and **Python languages**. I have a strong background in **back-end development** using languages such as **PHP** and **Node.js**, as well as experience in **front-end development** using HTML, CSS, and **JavaScript** with frameworks such as *React*. I am *passionate* about creating visually appealing and *user-friendly websites*. I am always eager to *learn new technologies and stay current with industry trends*. -->
 
+
+🎓 Student specializing in System and Network Administration
+
+💻 Passionate about Backend Development, DevOps, and System Administration
+
+🛠️ Building solutions with Node.js, PHP (Laravel, native PHP), Java (JavaFX), and Python (Tkinter)
+
+🌐 Managing VPS servers with advanced infrastructure monitoring and supervision using Prometheus, Grafana, and Docker
+
+---
+
+I am a French **software** and **web developer** with 7 years of personal experience specializing in **backend development** and **system administration**. Over the years, I have honed my skills in Java and Python for **application development**, as well as PHP and Node.js for creating robust backend solutions. On the **front end**, I have experience with HTML, CSS, and JavaScript, working with frameworks like React to create seamless user interfaces.
+
+In addition to development, I have a solid foundation in **system administration**, managing Linux-based VPS servers hosting multiple services, including web servers, databases, mail services, and Gitea for self-hosted Git repositories. I’ve also implemented infrastructure **monitoring and supervision** tools like Prometheus and Grafana, deployed within **Docker** containers for efficiency.
+
+Passionate about creating efficient, **secure**, and **user-friendly solutions**, I am always eager to explore new technologies, particularly in **DevOps**, to stay ahead of industry trends and continuously **improve my skill set**.
 
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=yohemm&theme=dark&hide_border=false"/>
@@ -20,10 +40,15 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 ---
 
 ## :dart:Skills
-- *Programming languages*: Java, Python, **JavaScript**, **PHP**, R
-- *Frameworks*: React, Node, pygame, tkinter, spigot, express
-- *Databases*: MySQL, SQL
-- *Other*: Git, Agile development, shell
+- *Programming languages*: Java, Python, **JavaScript**, **PHP**, R, Java, Bash scripting
+- *System Administration*: Linux, Docker, VPS Management, Mail Services, Gitea
+- *Frameworks*: React, Node-JS, pygame, tkinter, spigot, express, JavaFX
+- *Monitoring & Supervision*: Prometheus, Grafana
+- *Databases*: MySQL, SQL, PostgreSQL, mongo db
+- *Other Interests*: Web APIs, 2D Game Development, and Hosting Web Servers, Git, Agile development
+
+---
+
 <div align="center"> 
 
 <!-- <h3 align="left">Languages and Tools:</h3>
@@ -92,24 +117,36 @@ I am a French **software** and **web developer** with 6 years of experience. I h
 - Description: A showcase **website** to present myself
 
 ### :cloud:VPS
-- [apartment rental](https://github.com/yohemm/apartment-rental)
-- *Description*: A VPS with several websites, applications, mail servers and other, with an nginx reverse proxy
+- [VPS multi services](https://github.com/yohemm/VPS-Docker-Net)
+- *Description*: A VPS hosting several websites, applications, **mail servers**, and other services. It includes an **NGINX reverse proxy** and monitoring services like **Prometheus and Grafana**.
 
+### :memo:FlashCard Web
+- [FlashCard Web](https://github.com/yohemm/FlashCards)
+- *Description*: A higher education project for creating a memo/flashcard system with **user authentication, an API, and a backend** developed in **PHP Laravel**.
+- 
 ### :house_with_garden:Apartment rental
 - [apartment rental](https://github.com/yohemm/apartment-rental)
-- *Description*: A showcase **website** for show rental and availability with admin systeme.
+- *Description*: A showcase website to display rental properties and their availability. Includes an **admin system, banner announcements, and picture management** (a mini **no-code panel**) built with **native PHP**.
+
+### :hotsprings:Minecraft Plugins for server
+- [An auction house plugin](https://github.com/yohemm/HDV-minecraft-plugin)
+- Description: I have created more than **5 plugins** and edited the **main plugin** of a Minecraft server with over **2,500 visitors**.
+
+### :floppy_disk:A community Dev Web Projet
+- [An auction house plugin](https://github.com/yohemm/HDV-minecraft-plugin)
+- Description: I started developing a complex web application with features such as **user and rights management, badges, forums, courses**, and more in **Node.js**. Unfortunately, I couldn't finish due to time constraints with my studies.
 
 ### :satellite:GrabThePlayer
 - [Project Name](https://github.com/yohemm/grab-the-player)
-- *Description*: A **2D online video game** with server and client.
+- *Description*: A **2D online video game** with **server-client architecture**, featuring rotational controls built using **Pygame and Python sockets**.
 
 ### :older_man:History of programming langages
 - [History of programming languages](https://github.com/yohemm/history-of-programming-langages)
-- *Description*: A **website** with description of programming langages with mini-games.
+- *Description*: A high school project **website** describing various programming languages. It also includes mini-games developed in **native PHP**.
 
 ### :palm_tree:PeaceFullRPG
 - [PeaceFullRPG](https://github.com/yohemm/peace-full-rpg)
-- *Description*: A **2D rpg video game** with quest, there are no aim, just discover the wolrd.
+- *Description*: A high school project to create a **2D RPG video game** with quests. The goal was not to win but to explore the world. The game was developed in **Pygame**, but **the last version was lost**. I also created an app for map creation as part of the project.
 
 ---
 
