@@ -129,15 +129,15 @@ Passionate about creating efficient, **secure**, and **user-friendly solutions**
 - *Description*: A showcase website to display rental properties and their availability. Includes an **admin system, banner announcements, and picture management** (a mini **no-code panel**) built with **native PHP**.
 
 ### :hotsprings:Minecraft Plugins for server
-- [An auction house plugin](https://github.com/yohemm/HDV-minecraft-plugin)
+- [auction house plugin](https://github.com/yohemm/HDV-minecraft-plugin)
 - Description: I have created more than **5 plugins** and edited the **main plugin** of a Minecraft server [@MinePieceMinecraft](https://github.com/MinePieceMinecraft) with over **2,500 visitors**.
 
 ### :floppy_disk:A community Dev Web Projet
-- [An auction house plugin](https://github.com/yohemm/journal-du-dev)
+- [journal du dev](https://github.com/yohemm/journal-du-dev)
 - Description: I started developing a complex web application with features such as **user and rights management, badges, forums, courses**, and more in **Node.js**. Unfortunately, I couldn't finish due to time constraints with my studies.
 
 ### :satellite:GrabThePlayer
-- [Project Name](https://github.com/yohemm/grab-the-player)
+- [GrabThePlayer online video game](https://github.com/yohemm/grab-the-player)
 - *Description*: A **2D online video game** with **server-client architecture**, featuring rotational controls built using **Pygame and Python sockets**.
 
 ### :older_man:History of programming langages
