@@ -1,0 +1,942 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Lora&family=Montserrat:ital@1&display=swap');
+:root {
+    --white : rgb(240, 232, 232);
+    --white-less-opacity : rgba(240, 232, 232, 0.348);
+    --black : rgb(27, 26, 26);
+    --gray : rgb(209, 200, 200);
+    --linearGray : linear-gradient(45deg, transparent 50%, rgb(124, 124, 124) 50%, rgba(124, 124, 124, 0.278));
+    --formationStroke : linear-gradient(45deg, #c7c7c7 0%, #383838 50%);
+    --linearGreen : linear-gradient(45deg, #85FFBD 0%, #FFFB7D 50%);
+}
+html{
+    --res: calc(0.01*10vmin);
+}
+nav {
+    
+    font-size: 1.5rem;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-size: 1.5rem;
+    font-size: clamp(0.8rem, 4vw , 1.5rem);
+}
+.bg .filter-bg:nth-child(even){
+    background-image: linear-gradient(255deg, transparent, rgba(255, 255, 255, 0.219) 60%), 
+    radial-gradient(ellipse at center, #92929256 20%, #74747467 60%);
+}
+.bg .filter-bg:nth-child(odd){
+    background-image: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.589) 60%),
+    radial-gradient(ellipse at center,  #7070709d 20%, #3131319d 60%);
+}
+.bg .filter-bg:nth-child(3n){
+    width: 80vw ;height: 30vh;
+}
+.bg .filter-bg:nth-child(3n+2){
+    width: 20vw;height: 45vh;
+}
+.bg .filter-bg:nth-child(3n+1){
+    width: 35vw;height: 40vh;
+}
+.bg .filter-bg{
+    background-size: 100% ;
+    background-repeat: no-repeat;  
+    position: absolute;
+    width: 500px;height: 500px;
+    z-index: -1;
+    filter: brightness(1.2) blur(190px) saturate(0.5) opacity(0.2);
+}
+.bg{
+    height: 0;
+    width: 0;
+}
+p, span, div {
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+main{
+    margin: 0 5%;
+    backdrop-filter: blur(20px);
+}
+a{
+    color: var(--black);
+    font-family: 'Antic Didone', serif;
+    font-weight: 700;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Antic Didone', serif;
+    font-weight: 100;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'Antic Didone', serif;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Antic Didone', serif;
+}
+
+nav{
+    z-index: 9999;
+    /* height: clamp(50px, 15vw, 75px); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background 0.1s ease-in, border-bottom 0.5s ease-in;
+}
+nav ul { 
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    text-align: center;
+}
+nav ul li a {
+    line-height: 2.1;
+}
+nav ul li.name.hide { 
+    transform: translate(0, -2.1rem);
+}
+nav ul li.name { 
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+    transition: transform 0.2s ease-in;
+}
+nav li.photo-profile > a{
+    height: 100%;
+}
+nav li.photo-profile img{
+    width: 1.5rem;
+    /* transform: translateY(calc(calc(72px - 2rem)/2)); */
+    transition: border-radius 0.2s ease-in ;
+
+}
+nav li.photo-profile img.down, nav li.photo-profile:hover img{
+    border-radius: 50%;
+    
+}
+nav li.photo-profile:hover img.down{
+    border-radius: 0%;
+}
+/* nav li>a  {
+    font-size: clamp(1rem, 5vw ,1.5rem);
+} */
+nav li.github{
+    transition: transform 0.2s ease-in;
+}
+
+nav i{
+    font-size: 1.5rem;
+}
+nav li.github.hide{
+    transform: translate(87%, 0rem);
+}
+nav li.github a > span{
+    /* padding-left: 1rem; */
+}
+nav li.github:hover{
+    transform: translate(0, 0rem);
+}
+
+header nav ul li.skills-projects{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+
+}
+
+.nav-sticked{
+    border-bottom: 1px solid var(--black);
+    background-color: #fff;
+}
+
+#header{
+    margin: 0 5%;
+    margin-top: max(20vh, 9rem);
+    width: 60%;
+    min-height: 80vh;
+    margin-bottom: 1rem;
+}
+#header h2{
+    font-size: 1.8rem ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+#header p{
+    font-size: 1rem;
+    
+}
+#header div{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+#header div a.contact-btn{
+    transition: all 0.2s ease-in ;
+    padding: 10px;
+    border: 1px solid var(--black);
+    border-radius: 4px;
+
+}
+#header div a.contact-btn:hover{
+    border: 1px solid var(--white);
+    border-radius: 4px;
+    color: var(--white);
+    background: var(--black);
+    
+}
+
+section{
+    min-height: 60vh;
+    margin-bottom: max(40vh, 200px);
+}
+section:nth-last-of-type(1){
+    margin-bottom: 80px;
+}
+section h2{
+    margin-left: 6vw;
+    position: relative;
+    line-height: 1.5;
+}
+section h2::before{
+    position: absolute;
+    top: 1.5rem;
+    left: -6vw;
+    content: "";
+    width: 6vw;
+    height: 1.5rem;
+
+    background: linear-gradient(to left, #000 35%,  #00000000 50%);
+    background-size: 200% 100%;
+    background-position-x: 100%;   
+
+}
+section h2:hover::before{
+    animation: h3Spacer 5s infinite ease alternate;
+
+}
+#about-me h2{
+    margin-left: 0 ;
+}
+#about-me div{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: auto;
+}
+#about-me .space-between-vertcal p{
+    flex-grow: 1;
+}
+#about-me p{
+    font-size: 1rem;
+}
+#about-me h2::before{
+    content: none;
+    
+}
+section#about-me{
+    position: relative;
+    background: var(--black);
+    color: var(--white);
+    padding: 15px;
+}
+section#about-me::after{
+    content: "";
+    position: absolute;
+    right: -5vw;
+    top: 0;
+    background-color: var(--black);
+    width: 5vw;
+    height: 100%;
+}
+
+#main-skills h3{
+    text-align: center;
+}
+#main-skills h3::before{
+    content: none!important;
+}
+.container-skills{
+}
+#main-skills #back-skills .all-section-skill-container,
+#main-skills #front-skills .all-section-skill-container{
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
+    min-height: calc(2*calc(2rem + 1.5rem));
+    height: 50vh;
+    position: relative;
+    
+}
+#main-skills #back-skills .all-section-skill-container{
+    border-left: 1px solid var(--black);
+}
+#main-skills #front-skills .all-section-skill-container{
+    border-right: 1px solid var(--black);
+}
+
+#main-skills #back-skills .all-section-skill-container::before,
+#main-skills #back-skills .all-section-skill-container::after{
+    content: "";
+    position: absolute;
+    height: 30%;
+    border-right: 1px solid var(--black);
+    right: 0;
+}
+#main-skills #back-skills .all-section-skill-container::after{
+    top: 0;
+}
+#main-skills #back-skills .all-section-skill-container::before{
+    bottom: 0;
+}
+
+#main-skills #front-skills .all-section-skill-container::before,
+#main-skills #front-skills .all-section-skill-container::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 30%;
+        border-left: 1px solid var(--black);
+}
+#main-skills #front-skills .all-section-skill-container::after{
+    top: 0;
+}
+#main-skills #front-skills .all-section-skill-container::before{
+    bottom: 0;
+}
+
+#main-skills span{
+    z-index: 2;
+    
+}
+#main-skills .pos-0, #main-skills .pos-1,
+#main-skills .pos-2, #main-skills .js, #main-skills .css {
+    position: absolute;
+
+}
+#main-skills .pos-0{
+    bottom: 0;
+}
+#main-skills .pos-1{
+    top: 0;
+}
+#main-skills .pos-2{
+    top: calc(50% - calc(1.5rem/2));
+}
+#main-skills #back-skills .pos-2{
+    left: 0;
+}
+#main-skills #front-skills .pos-2{
+    right: 0;
+}
+#main-skills .js{
+    top: 0;
+}
+#main-skills .css{
+    bottom: 0;
+}
+#main-skills span::before,
+#back-skills span.vert,#back-skills span.horiz,
+#front-skills span{
+    position: absolute;
+    background: var(--black);
+}
+#back-skills span.vert,
+#front-skills span.vert{
+    top: calc(2rem + 1.5rem + 10px);
+    height: calc(100% - 2*calc(2rem + 1.5rem + 10px));
+    width: 4px;
+    right: 50%;
+    left: 50%;
+}
+#back-skills span.horiz{
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    height: 4px;
+    width: calc(50% - 140px);
+}
+#front-skills span.horiz{
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    height: 4px;
+    width: calc(50% - 140px);
+}
+#back-skills span.vert::before,
+#front-skills span.vert::before{
+    content: "";
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    width: 20px;height: 20px;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+#front-skills span.anim{
+    position: absolute;
+    z-index: 0;
+    width: 150%;
+    height: 4px;
+    top: 50%;
+    bottom: 50%;
+    left: -100%;
+    background: linear-gradient(to left, transparent 90%,  var(--black) 90%, var(--black));
+    background-size: 200%;
+    animation: backToFront 3s 0s infinite ease-in-out;
+}
+#used-skills .skill-title-container{
+    display: flex;
+}
+h3.subtitle{
+    position: relative;
+    width: auto;
+}
+h3.subtitle::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: 15px;left: 15px;
+    width: calc(100% - 30px);
+    height: 4px;
+    background-image: linear-gradient(to bottom, transparent 50%,  var(--black) 50%, var(--black));
+    background-size: 100% 200%;
+    animation-name: moveToUp;
+    animation-duration : 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.container-subtitle-async:nth-child(2n) h3.subtitle::before{
+    animation-delay: 1.5s;
+    /* animation-duration : 4.5s; */
+}
+.skill-container{
+    margin: 0 15px;
+    text-align: center;
+}
+.skill-container i{
+    font-size: 2rem;
+    margin: 0 auto;
+}
+.all-section-skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5vh;    
+}
+.container-skills{
+    margin-bottom: 15vh;
+}
+#main-skills{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#main-skills #back-skills, #main-skills #front-skills{
+    width: 40%;
+}
+
+/* PRESENTATION DE PROJECT */
+
+.projects-container {
+    padding: 0 20vw;
+}
+
+.card{
+    margin: 20vh 0;
+    border: 1px solid;
+    border-radius: 5px;
+    max-height: 20vh;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-header .card-header-content {
+    backdrop-filter: blur(1px);
+    /* height: 100%; */
+    width: 100%;
+}
+.card .card-header{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+}
+.card .card-header h4{
+    margin: 0  auto;
+    width: max(20%, 200px);
+    border-radius: 15px;
+    box-shadow: 10px 0 5px #555555c0,  -10px 0 5px #555555c0;
+    height: 100%;
+    z-index: 2;
+    text-align: center;
+    font-size: 2.5rem;
+    backdrop-filter: grayscale(1);
+    -webkit-backdrop-filter: grayscale(1);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: -1px 0px 0px white, 0px -1px 0px white, 1px 0px 0px white, 0px 1px 0px white; 
+}
+
+.card .card-content .formation-btn {
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--gray);
+    width: 200px;
+    margin: 0 auto;
+}
+.card .card-content {
+    background-color: white;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card .card-content .card-details {}
+.card .card-content .card-technos-overview {
+    align-self: flex-end;
+}
+.card .card-content .card-technos-overview span{
+    color: red;
+}
+/* 
+.projects-showing{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 30px;
+    margin: 80px 0;
+}
+
+.projects-showing .card h4{
+    text-align: center;
+    margin: 20px 0;
+    border-bottom: dashed 1px var(--gray);
+}
+
+.card-wrapper {
+    position: absolute;
+    min-height: 350px;
+    perspective: 2000px;
+    perspective-origin: top;
+}
+
+.card-wrapper:hover .card {
+    transform: rotateY(180deg);
+}
+.card {
+    position: relative;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
+    backface-visibility: hidden;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card-back {
+    transform: rotateY(180deg);
+} */
+
+
+/*
+.projet-showing{
+    height: 400px;
+    padding: 15px;
+}
+.projet-showing .card{
+    position: relative;
+    transform-style: preserve-3d;
+    border: 4px solid var(--black);
+    transition: transform 0.4s ease-in-out;
+    border-radius: 5px;
+    height: 100%;
+}
+.projet-showing:hover .card{
+    transform: rotateY(180deg);
+}
+.projet-showing .card .face-card{
+    position: absolute;
+    background-color: var(--white);
+    top: 0;bottom: 0;right: 0;left: 0;
+}
+
+.projet-showing .card .front-card img.return-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: scale(100%, -100%);
+}
+
+.projet-showing .card .front-card img{
+    height : 50px;
+}
+
+.projet-showing .card .back-card p,
+.projet-showing .card .front-card h4{
+    margin: 15px;
+    margin: 0 auto;
+    backdrop-filter: blur(2px);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--white-less-opacity);
+}
+
+.projet-showing .card .back-card{
+    transform: rotateY(180deg);
+}
+.projet-showing .card .back-card p{
+    position: absolute;
+    bottom: 15px;left: 15px;
+    font-size:calc(25*var(--res));
+}
+.projet-showing .card .front-card{
+    display: flexbox;
+}
+.projet-showing .card h4{
+    text-align: center;
+    line-height: 0.9;
+}
+
+ */
+
+
+
+/* SVG FORMATIONS */
+
+.school-step{
+    position: relative;
+    padding: 10px;
+    /* SvG a changer aussi pour br */
+    border-radius: 10px;
+    
+    background: var(--white);
+    background: linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 9px) calc(100% - 9px) no-repeat,
+    var(--formationStroke);   
+    
+}
+.school-step .text{
+    position: relative;
+            z-index: 3; 
+        }
+        .school-step svg{
+            /* .formation a changer aussi pour br */
+            border-radius: 10px;
+            overflow: hidden;
+            position: absolute;
+            display: block;
+            top: 0px;bottom: 0px;right: 0px;left: 0px;
+            z-index: 1;
+        }
+        .school-step svg path{
+            stroke-width: 15px;
+            vector-effect: non-scaling-stroke;
+            stroke: #fff;
+        }
+        .path {
+    stroke-dasharray: 50;
+    stroke-dashoffset: 400;
+    animation: progress 8s linear forwards infinite;
+}
+
+
+/* FORMULAIRE */
+
+progress{
+    width: 100%;
+}
+.progressbar {
+    top: 100000px;
+    
+}
+
+progress[value] {
+    margin-bottom: 2.3rem;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+
+    width: 100%;
+    height: 5vh;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    transition: all 1s ease;
+    background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   var(--linearGreen);
+
+    border-radius: 20px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-webkit-progress-value::before {
+    content: '80%';
+    position: absolute;
+    right: 0;
+    top: -125%;
+  }
+
+
+  progress[value]::-webkit-progress-value::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    border-radius: 100%;
+    right: 7px;
+    top: 7px;
+    background-color: var(--white);
+}
+
+input, textarea{
+    background: var(--white);
+    border-radius: 8px;
+    resize: none;
+    padding: 10px;
+    
+}
+fieldset{
+    display: flex;
+}
+form .form-group{
+    padding-top: 1.5rem;
+    margin-bottom: 10px;
+    position: relative;
+}
+form .form-group:focus-within label, form .form-group.animation label{
+    top: -10px;
+}
+form .form-group label{
+    position: absolute;
+    top: calc(1.5rem + 10px);
+    padding-left: 10px;
+    transition: top 0.2s ease-in;
+}
+
+form .form-group textarea{
+    width: 90%;
+    height: 40vh;
+}
+form input[type="submit"]{
+    text-align: center;
+    width: 100px;
+    border-radius: 99px;
+}
+form .form-group{
+    width: 100%;
+    text-align: center;
+}
+form .form-group .err{
+    position: absolute;
+    color: tomato;
+    bottom: -1.5rem;
+    left: 0;
+    width: 100%;
+    
+}
+.form-group input[type="submit"]{
+    transition: background-position 0.2s ease-in, color 0.2s ease-out;
+    width: auto;
+    padding: 15px 60px;
+    border: 3px solid var(--black);
+    border-radius: 999px;
+    background-image: linear-gradient(45deg, transparent 50%, #85FFBD 50%, #FFFB7D);
+    background-size: 200%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.form-group input[type="submit"]:disabled{
+    background-image: var(--linearGray);
+    cursor: default;
+}
+.form-group input[type="submit"]:disabled:hover{
+    color: var(--gray);
+}
+.form-group input[type="submit"]:hover {
+    color: var(--black);
+    background-position: 100%;
+    border: 3px solid var(--white);
+    
+}
+
+
+
+
+
+/* FORMATIONS */
+
+section#schoolcuriculum {
+    position: relative;
+}
+section#schoolcuriculum::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    right: 49.9%;
+    top: 0%;
+    border: solid 2px var(--black);
+}
+
+section#schoolcuriculum .school-step{
+    /* position: relative; */
+    width: 49%;
+    margin-top: 1rem;
+}
+section#schoolcuriculum .school-step::after{
+    content: "";
+    position: absolute;
+    background-color: var(--black);
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 0;
+    right: 0;
+    transform: translate(100%, 50%);
+}
+section#schoolcuriculum .school-step:nth-child(even)::after{
+    left: 0;
+    transform: translate(-100%, 50%);
+}
+section#schoolcuriculum .school-step:nth-child(even){
+    margin-left: auto;
+    /* text-align: right; */
+    /* float: right; */
+
+}
+
+
+
+
+
+/* FOOTER */
+
+footer address ul {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+footer address a {
+    border-bottom: var(--black) 3px solid;
+    transition: border-bottom 0.2s ease-out;
+}
+footer address a:hover {
+    border-color: #fff;
+}
+
+/* ANIMATION */
+
+@keyframes backToFront {
+    0%{
+        background-position: 220%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 220%;
+    }
+}
+@keyframes moveToUp {
+    0%{
+        background-position-y: 0%;
+    }
+    10%{
+        background-position-y: 0%;
+    }
+    45%{
+        background-position-y: 100%;
+    }
+    65%{
+        background-position-y: 100%;
+    }
+    100%{
+        background-position-y: 200%;
+    }
+}
+  
+@keyframes progress {
+    to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes h3Spacer{
+    from{
+        background-position-x: 100%;
+    }
+    25%{
+        background-position-x: 85%;
+    }
+    50%{
+        background-position-x: 90%;
+    }
+    75%{
+        background-position-x: 70%;
+    }
+    to{
+        background-position-x: 80%;
+    }
+}
+@media screen and (max-width: 740px) {
+    fieldset{
+        display: block;
+    }
+    input{
+        width: 80vw;
+    }
+    main{
+        margin: 0;
+    }
+    
+}

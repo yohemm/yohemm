@@ -1,0 +1,263 @@
+name: Continous Intergration And Continous Deployment
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  #### CI Check up and build artifact
+  ci-and-build-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      # Recup les fichiers de travaille
+      - uses: actions/checkout@v4
+      
+      # utilise node
+      - name: Use Node.js  22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+        # execute des commandes
+      - name: Clean install NPM
+        run: npm ci
+
+      - name: Install Dependencies
+        run: npm install --legacy-peer-deps
+      
+      - name: Check Type
+        run: npm run typecheck
+      
+      - name: Syntaxe and Lint Verification
+        run: npm run lint
+
+      - name: Build App
+        run: npm run build
+      
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: build/
+
+  # Release For Auto Versionning
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    needs: ci-and-build-artifact
+    if: ${{ ((github.event_name == 'push' || github.event_name == 'pull_request') && github.ref_name == 'master' && success()) || github.event_name == 'workflow_dispatch' }}
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for npm provenance
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js  22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+
+      - name: Clean install NPM
+        run: npm ci
+        
+      - name: Build
+        run: npm run build
+        
+      - name: Verify the integruty of signatures for installed dependencies
+        run: npm audit signatures
+        
+      - name: Execute semantic release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  #### set-up github-page
+  deploy-github-page:
+    name: Create Github page
+    runs-on: ubuntu-latest
+    needs: ci-and-build-artifact
+    if: ${{ ((github.event_name == 'push' || github.event_name == 'pull_request') && github.ref_name == 'master' && success()) || github.event_name == 'workflow_dispatch' }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # utilise node
+      - name: Use Node.js  22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+        # execute des commandes
+      - name: Clean install NPM
+        run: npm ci
+
+      - name: Build App
+        run: npm run build
+
+      - id: build-publish
+        uses: bitovi/github-actions-react-to-github-pages@v1.2.4
+        with:
+          path: build # change to your build folder
+
+
+  #### setup github-packages registry image
+  build-image-github:
+    name: GitHub Build docker image
+    runs-on: ubuntu-latest
+    needs: ci-and-build-artifact
+    
+    if: ${{ ((github.event_name == 'push' || github.event_name == 'pull_request') && github.ref_name == 'master' && success()) || github.event_name == 'workflow_dispatch' }}
+
+    # changer de repertoire de travail
+    # defaults:
+    #   run:
+    #     working-directory:
+
+    permissions: 
+      packages: write
+      contents: read
+      
+    steps:
+      # Recup les fichiers de travaille
+      - uses: actions/checkout@v4
+      
+      # utilise node
+      - name: Login in to registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
+      
+      - name: Build the docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          tags: ghcr.io/${{ github.repository_owner }}/portfolio:${{ github.ref_name }}
+
+
+  #### docker hub image registry pipeline
+  build-image-dockerhub:
+    name: Push Image on dockerHub
+    needs: ci-and-build-artifact
+
+    if: ${{ ((github.event_name == 'push' || github.event_name == 'pull_request') && github.ref_name == 'master' && success()) || github.event_name == 'workflow_dispatch' }}
+    permissions: 
+      contents: read
+    runs-on: ubuntu-latest
+    # needs: checkup
+    steps:
+      # - name: Download Build Artifact
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: build
+      - uses: actions/checkout@v4
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ vars.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: DEBUG
+        run: |
+          echo `ls`
+          echo `pwd`
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # - name: Build and test
+      #   uses: docker/build-push-action@v6
+      #   with:
+      #     target: build
+
+      #     load: true
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          # context: "{{defaultContext}}:build"
+          push: true
+          tags: ${{ vars.DOCKER_USERNAME }}/portfolio:latest
+          # tags: ${{ vars.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
+
+
+          
+  #### VPS Pipeline
+  deploy-server:
+    name: Deployment on server
+    runs-on: ubuntu-latest
+    needs: ci-and-build-artifact
+    # needs: ci-and-build-artifact
+    
+    if: ${{ ((github.event_name == 'push' || github.event_name == 'pull_request') && github.ref_name == 'master' && success()) || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+
+
+      # - name: DEBUG
+      #   shell: bash
+      #   env:
+      #     SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      #     VPS_USER: ${{ secrets.VPS_USER }}
+      #     VPS_PASS: ${{ secrets.VPS_PASS }}
+      #     VPS_IP: ${{ secrets.VPS_IP }}
+      #   run: |
+      #     echo "$SSH_PRIVATE_KEY , $VPS_USER , $VPS_USER , $VPS_IP"
+
+      # - name: Copy files with SSH
+      #   uses: appleboy/scp-action@v0.1.7
+      #   with:
+      #     host: ${{ secrets.VPS_IP }}
+      #     username: ${{ secrets.VPS_USER }}
+      #     password: ${{ secrets.VPS_PASS }}
+      #     key: ${{ secrets.SSH_PRIVATE_KEY }}
+      #     source: "*,*/,!.DS_Store,!/node_modules/,!/.react-router/,!/build/"
+      #     target: /VPS_v2/Projets/portfolio/
+      #     strip_components: 0 
+      #     debug: true
+      #           - name: Set up SSH key
+      - name: Set up SSH key
+        run: |
+          env
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p 22 ${{ secrets.VPS_IP }} >> ~/.ssh/known_hosts
+          sudo apt-get install sshpass
+
+
+      - name: Deploy to server
+        run: |
+          sshpass -p '${{ secrets.VPS_PASS }}' ssh -v -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_IP }} << EOF
+            cd {{ APP_PATH }}
+
+            # Set GitHub credentials using GITHUB_TOKEN
+            git config --global credential.helper store
+            echo "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" > ~/.git-credentials
+
+            # Pull the latest code from the repository
+            git pull origin master
+
+          EOF
+
+      # - name: Deploy to VPS
+      #   uses: appleboy/ssh-action@v1.2.0
+      #   with:
+      #     host: ${{ secrets.VPS_IP }}
+      #     username: ${{ secrets.VPS_USER }}
+      #     key: ${{ secrets.SSH_PRIVATE_KEY }}
+      #     script: |
+      #       cd /VPS_v2/Projets/portfolio/
+      #       docker-compose down || true
+      #       docker-compose pull
+      #       docker-compose up --build -d
+      #       docker-compose image prune -f
+      #       docker-compose ps

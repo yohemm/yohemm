@@ -1,0 +1,45 @@
+{
+  "name": "portfolio-react-router",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js",
+    "clean": "rm -rf node_modules && npm ci",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "react-router typegen && tsc"
+  },
+  "dependencies": {
+    "@react-router/dev": "^7.1.5",
+    "@react-router/node": "^7.1.5",
+    "@react-router/serve": "^7.1.5",
+    "@types/react-router-dom": "^5.3.3",
+    "isbot": "^5.1.17",
+    "portfolio-react-router": "file:",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.1.5",
+    "react-router-dom": "^7.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@react-router/dev": "^7.1.5",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@types/node": "^20",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "eslint": "^9.20.1",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^16.0.0",
+    "react-router-devtools": "^1.1.0",
+    "semantic-release": "^24.2.3",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
