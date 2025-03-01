@@ -153,7 +153,7 @@ Passionate about creating efficient, **secure**, and **user-friendly solutions**
 
 ## :signal_strength:Statisitcs & achievement:bookmark:
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yohemm" alt="yohemm" /></a> </p>
+<p align="left"><img src="https://github-profile-trophy.vercel.app/?username=yohemm&rank=-?,-C" alt="yohemm" /></p>
 
 <p style="width: 30%" align="center">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&theme=transparent"/>
