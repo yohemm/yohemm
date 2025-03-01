@@ -154,15 +154,15 @@ Passionate about creating efficient, **secure**, and **user-friendly solutions**
 ## :signal_strength:Statisitcs & achievement:bookmark:
 
 <p align="center">
-  <img style="width: 30%" align="center" src="https://github-profile-trophy.vercel.app/?username=yohemm&rank=-?,-C" alt="yohemm" />
+  <img style="width: 30%"rc="https://github-profile-trophy.vercel.app/?username=yohemm&rank=-?,-C" alt="yohemm" />
 </p>
 
 <p style="width: 30%" align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&theme=transparent"/>
+<imgsrc="https://github-readme-stats.vercel.app/api?username=yohemm&show_icons=true&theme=transparent"/>
 </p>
 
 <p style="width: 30%" align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yohemm&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yohemm&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
 </p>
 
 ---
