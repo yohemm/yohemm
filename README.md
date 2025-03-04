@@ -177,4 +177,7 @@ Passionate about creating efficient, **secure**, and **user-friendly solutions**
 
 ---
 I not use **GitHub** every days or week, but I have learn gitHub with **git bash**. I think I can understand and make a medium commande **without great difficulty**. 
-<!-- &custom_title=My%20Activity%20on%20GitHub&hide_border=true&theme=xcode -->
+
+## :zap: Recent Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
