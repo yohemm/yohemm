@@ -1,6 +1,17 @@
 # Yohemm
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=yohemm&label=Profile%20views&color=0e75b6&style=flat" alt="yohemm" /> </p>
-<div align="center">🚀 Aspiring DevOps Engineer | Backend Developer | System Administrator</div>
+<div align="center">
+  <div>
+    <img width="64px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+    <img width="64px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+    <img width="64px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+  </div>
+  <h2>🚀 Aspiring DevOps Engineer | Backend Developer | System Administrator</h2>
+  <div>
+    <img width="64px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
+    <img width="64px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+  </div>
+</div>
 
 ---
 
