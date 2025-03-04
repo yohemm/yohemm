@@ -188,6 +188,7 @@ Passionate about creating efficient, **secure**, and **user-friendly solutions**
 I not use **GitHub** every days or week, but I have learn gitHub with **git bash**. I think I can understand and make a medium commande **without great difficulty**. 
 
 ## :zap: Recent Activity
-<!--START_SECTION:activity-->
 
-<!--END_SECTION:activity-->
+<!--RECENT_ACTIVITY:start-->
+
+<!--RECENT_ACTIVITY:last_update-->
