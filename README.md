@@ -192,13 +192,13 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Sunday, March 9th, 2025, 1:58:14 AM
+Last Updated: Monday, March 10th, 2025, 2:00:11 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
-1. ✔️ Closed issue [#9](https://github.com/yohemm/Portfolio/issues/9) in [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-2. ✔️ Closed issue [#20](https://github.com/yohemm/Portfolio/issues/20) in [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-3. ⬆️ Pushed 1 commit(s) to [yohemm/yohemm](https://github.com/yohemm/yohemm)<br>
-4. ⬆️ Pushed 4 commit(s) to [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-5. 🎉 Merged PR [#24](https://github.com/yohemm/Portfolio/pull/24) in [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
+1. ⬆️ Pushed 4 commit(s) to [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
+2. 🎉 Merged PR [#27](https://github.com/yohemm/Portfolio/pull/27) in [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
+3. 💪 Opened PR [#27](https://github.com/yohemm/Portfolio/pull/27) in [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
+4. ⬆️ Pushed 3 commit(s) to [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
+5. ⬆️ Pushed 7 commit(s) to [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
 <!--RECENT_ACTIVITY:end-->
