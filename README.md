@@ -192,12 +192,13 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Sunday, May 11th, 2025, 2:40:57 AM
+Last Updated: Monday, May 12th, 2025, 2:40:36 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 2 commit(s) to [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-2. 🎉 Merged PR [#33](https://github.com/yohemm/Portfolio/pull/33) in [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-3. 💪 Opened PR [#33](https://github.com/yohemm/Portfolio/pull/33) in [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-4. ⬆️ Pushed 1 commit(s) to [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
+1. ✌️ Released [HDV v1.2.1](https://github.com/yohemm/HDV-minecraft-plugin/releases/tag/v1.2.1) in [yohemm/HDV-minecraft-plugin](https://github.com/yohemm/HDV-minecraft-plugin)<br>
+2. ⬆️ Pushed 1 commit(s) to [yohemm/HDV-minecraft-plugin](https://github.com/yohemm/HDV-minecraft-plugin)<br>
+3. ⬆️ Pushed 1 commit(s) to [yohemm/HDV-minecraft-plugin](https://github.com/yohemm/HDV-minecraft-plugin)<br>
+4. ⬆️ Pushed 1 commit(s) to [yohemm/HDV-minecraft-plugin](https://github.com/yohemm/HDV-minecraft-plugin)<br>
+5. ⬆️ Pushed 2 commit(s) to [yohemm/HDV-minecraft-plugin](https://github.com/yohemm/HDV-minecraft-plugin)<br>
 <!--RECENT_ACTIVITY:end-->
