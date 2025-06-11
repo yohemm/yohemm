@@ -192,13 +192,10 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Tuesday, June 10th, 2025, 2:43:35 AM
+Last Updated: Wednesday, June 11th, 2025, 2:42:39 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Pushed 1 commit(s) to [yohemm/Breakable_Block](https://github.com/yohemm/Breakable_Block)<br>
 2. ⬆️ Pushed 1 commit(s) to [yohemm/VPS-Docker-Net](https://github.com/yohemm/VPS-Docker-Net)<br>
-3. ✌️ Released [HDV v1.2.1](https://github.com/yohemm/HDV-minecraft-plugin/releases/tag/v1.2.1) in [yohemm/HDV-minecraft-plugin](https://github.com/yohemm/HDV-minecraft-plugin)<br>
-4. ⬆️ Pushed 1 commit(s) to [yohemm/HDV-minecraft-plugin](https://github.com/yohemm/HDV-minecraft-plugin)<br>
-5. ⬆️ Pushed 1 commit(s) to [yohemm/HDV-minecraft-plugin](https://github.com/yohemm/HDV-minecraft-plugin)<br>
 <!--RECENT_ACTIVITY:end-->
