@@ -192,13 +192,8 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Sunday, July 20th, 2025, 3:01:49 AM
+Last Updated: Monday, July 21st, 2025, 3:00:31 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 2 commit(s) to [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-2. 🎉 Merged PR [#35](https://github.com/yohemm/Portfolio/pull/35) in [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-3. 💪 Opened PR [#35](https://github.com/yohemm/Portfolio/pull/35) in [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-4. ⬆️ Pushed 1 commit(s) to [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
-5. ⬆️ Pushed 6 commit(s) to [yohemm/Portfolio](https://github.com/yohemm/Portfolio)<br>
 <!--RECENT_ACTIVITY:end-->
