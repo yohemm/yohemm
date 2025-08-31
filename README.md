@@ -192,13 +192,13 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Saturday, August 30th, 2025, 2:16:31 AM
+Last Updated: Sunday, August 31st, 2025, 2:25:59 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
-1. 📔 Created new repository [yohemm/YT-Music-Playlist-Sync](https://github.com/yohemm/YT-Music-Playlist-Sync)<br>
-2. 📔 Created new repository [yohemm/YT-Music-Playlist-Sync](https://github.com/yohemm/YT-Music-Playlist-Sync)<br>
-3. ⬆️ Pushed 1 commit(s) to [yohemm/YT-Music-Playlist-Sync](https://github.com/yohemm/YT-Music-Playlist-Sync)<br>
-4. 📔 Created new repository [yohemm/YT-Music-Playlist-Sync](https://github.com/yohemm/YT-Music-Playlist-Sync)<br>
-5. ⭐ Starred [ErfanNamira/ytget](https://github.com/ErfanNamira/ytget)<br>
+1. ⬆️ Pushed 4 commit(s) to [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
+2. ✌️ Released [V1.0.0](https://github.com/yohemm/YTPlaySync/releases/tag/V1.0.0) in [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
+3. ⬆️ Pushed 1 commit(s) to [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
+4. ⬆️ Pushed 1 commit(s) to [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
+5. ⬆️ Pushed 1 commit(s) to [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
 <!--RECENT_ACTIVITY:end-->
