@@ -192,13 +192,9 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Monday, September 29th, 2025, 2:22:09 AM
+Last Updated: Tuesday, September 30th, 2025, 2:17:27 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Pushed 4 commit(s) to [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
-2. ✌️ Released [V1.0.0](https://github.com/yohemm/YTPlaySync/releases/tag/V1.0.0) in [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
-3. ⬆️ Pushed 1 commit(s) to [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
-4. ⬆️ Pushed 1 commit(s) to [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
-5. ⬆️ Pushed 1 commit(s) to [yohemm/YTPlaySync](https://github.com/yohemm/YTPlaySync)<br>
 <!--RECENT_ACTIVITY:end-->
