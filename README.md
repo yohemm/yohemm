@@ -192,11 +192,13 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Tuesday, October 21st, 2025, 2:24:04 AM
+Last Updated: Wednesday, October 22nd, 2025, 2:26:47 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
+1. 💪 Opened PR [#1](undefined) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
 2. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
 3. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
+4. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
+5. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
 <!--RECENT_ACTIVITY:end-->
