@@ -192,13 +192,13 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Wednesday, October 22nd, 2025, 2:26:47 AM
+Last Updated: Thursday, October 23rd, 2025, 2:22:27 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
-1. 💪 Opened PR [#1](undefined) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
-2. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
-3. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
-4. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
-5. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
+1. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
+2. ❗️ Opened issue [#7](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE/issues/7) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
+3. ❗️ Opened issue [#6](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE/issues/6) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
+4. ❗️ Opened issue [#5](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE/issues/5) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
+5. ❗️ Opened issue [#4](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE/issues/4) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
 <!--RECENT_ACTIVITY:end-->
