@@ -192,13 +192,8 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Saturday, November 22nd, 2025, 2:21:57 AM
+Last Updated: Sunday, November 23rd, 2025, 2:53:06 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed undefined commit(s) to [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
-2. ❗️ Opened issue [#7](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE/issues/7) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
-3. ❗️ Opened issue [#6](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE/issues/6) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
-4. ❗️ Opened issue [#5](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE/issues/5) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
-5. ❗️ Opened issue [#4](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE/issues/4) in [yohemm/HACK-EPITECH-PROJET-ELYSE](https://github.com/yohemm/HACK-EPITECH-PROJET-ELYSE)<br>
 <!--RECENT_ACTIVITY:end-->
