@@ -192,8 +192,10 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Sunday, May 31st, 2026, 5:12:57 AM
+Last Updated: Monday, June 1st, 2026, 5:54:07 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
+1. ⭐ Starred [public-apis/public-apis](https://github.com/public-apis/public-apis)<br>
+2. ⭐ Starred [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)<br>
 <!--RECENT_ACTIVITY:end-->
