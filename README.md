@@ -192,10 +192,13 @@ I not use **GitHub** every days or week, but I have learn gitHub with **git bash
 ## :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Tuesday, June 2nd, 2026, 5:24:42 AM
+Last Updated: Wednesday, June 3rd, 2026, 5:56:55 AM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
-1. ⭐ Starred [public-apis/public-apis](https://github.com/public-apis/public-apis)<br>
-2. ⭐ Starred [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)<br>
+1. ⬆️ Pushed undefined commit(s) to [yohemm/aisa-brand](https://github.com/yohemm/aisa-brand)<br>
+2. ⬆️ Pushed undefined commit(s) to [yohemm/aisa-landing](https://github.com/yohemm/aisa-landing)<br>
+3. ⭐ Starred [ahegazy0/linux-basics-for-hackers-notes](https://github.com/ahegazy0/linux-basics-for-hackers-notes)<br>
+4. ⭐ Starred [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui)<br>
+5. ⭐ Starred [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool)<br>
 <!--RECENT_ACTIVITY:end-->
